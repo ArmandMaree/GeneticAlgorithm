@@ -95,8 +95,8 @@ public class Gene {
 		int maxRow = raster.getHeight() - 1;
 		int maxCol = raster.getWidth() - 1;
 
-		for (int i = 0; i < maxRow; i++) {
-			for (int j = 0; j < maxCol; j++) {
+		for (int i = 0; i < maxRow; i += 1) {
+			for (int j = 0; j < maxCol; j += 1) {
 				imageColor = (imageColor * numRead++ + inputImage.getRGB(j, i)) / numRead;
 			}
 		}

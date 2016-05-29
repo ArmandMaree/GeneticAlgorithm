@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab19bccc-6905-4a87-9311-52f9a58fd07c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chromosome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gene.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GeneticAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gene.java" afterPath="$PROJECT_DIR$/src/Gene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeneticAlgorithm.java" afterPath="$PROJECT_DIR$/src/GeneticAlgorithm.java" />
     </list>
     <ignored path="GeneticAlgorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7782516">
-              <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+            <state vertical-scroll-proportion="-90.51724">
+              <caret line="273" column="17" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gene.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.67469877">
+              <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
-                <element signature="e#2841#2842#0" expanded="true" />
-                <element signature="e#2872#2873#0" expanded="true" />
-                <element signature="e#2896#2897#0" expanded="true" />
-                <element signature="e#2936#2937#0" expanded="true" />
-                <element signature="e#2959#2960#0" expanded="true" />
+                <element signature="e#2824#2825#0" expanded="true" />
+                <element signature="e#2847#2848#0" expanded="true" />
+                <element signature="e#2878#2879#0" expanded="true" />
+                <element signature="e#2902#2903#0" expanded="true" />
+                <element signature="e#2942#2943#0" expanded="true" />
+                <element signature="e#2965#2966#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,9 +116,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Gene.java" />
         <option value="$PROJECT_DIR$/src/Chromosome.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/Gene.java" />
       </list>
     </option>
   </component>
@@ -210,7 +207,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/../imagesJPG&quot; &quot;$PROJECT_DIR$/test.jpg&quot; 20 20" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/../images&quot; &quot;$PROJECT_DIR$/test.jpg&quot; 50 50" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -653,12 +650,12 @@
       <option name="number" value="Default" />
       <updated>1464529167891</updated>
       <workItem from="1464529170779" duration="155000" />
-      <workItem from="1464529369725" duration="24562000" />
+      <workItem from="1464529369725" duration="25737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24717000" />
+    <option name="totallyTimeSpent" value="25892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1548" y="-904" width="1548" height="904" extended-state="6" />
@@ -743,33 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2841#2842#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2936#2937#0" expanded="true" />
-            <element signature="e#2959#2960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#50#51#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -794,12 +764,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#50#51#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7782516">
-          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+        <state vertical-scroll-proportion="-90.51724">
+          <caret line="273" column="17" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67469877">
+          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2825#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2878#2879#0" expanded="true" />
+            <element signature="e#2902#2903#0" expanded="true" />
+            <element signature="e#2942#2943#0" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
           </folding>
         </state>
       </provider>

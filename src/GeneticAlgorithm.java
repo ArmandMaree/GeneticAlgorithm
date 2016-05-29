@@ -129,18 +129,19 @@ public class GeneticAlgorithm {
 				for (int i = 0; i < newGeneration[numNew - 1].getNumGenes(); i++) {
 					if (random.nextInt() % 100 < mutateProbability) {
 						newGeneration[numNew - 1].setGene(i, mutate());
-						calcFitness(newGeneration[numNew - 1]);
 					}
 				}
 
+				calcFitness(newGeneration[numNew - 1]);
 				newGeneration[numNew++] = offspring[1];
 
 				for (int i = 0; i < newGeneration[numNew - 1].getNumGenes(); i++) {
 					if (random.nextInt() % 100 < mutateProbability) {
 						newGeneration[numNew - 1].setGene(i, mutate());
-						calcFitness(newGeneration[numNew - 1]);
 					}
 				}
+
+				calcFitness(newGeneration[numNew - 1]);
 			}
 
 			if (newGeneration.length == 0)
@@ -320,7 +321,6 @@ public class GeneticAlgorithm {
 				children[0].setGene(i, chromosomes[parents[0]].getGene(i));
 				children[1].setGene(i, chromosomes[parents[1]].getGene(i));
 			}
-
 			return children;
 		}
 		else
